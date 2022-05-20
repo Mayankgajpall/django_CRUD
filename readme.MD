@@ -8,7 +8,7 @@ To run this project:
 Enpoints for the REST API are:
 1) /books (GET): Provides details of all the books available in the DB
 2) /books (POST): Insert data in the DB, if the provided json data is valid.
-2) /books/<id> (GET,PUT,DELETE): Retrieve, update and delete respectively by providing id of the data.
+2) /books/<<id>> (GET,PUT,DELETE): Retrieve, update and delete respectively by providing id of the data.
 
 Valid input Json data:
 
@@ -20,4 +20,4 @@ Valid input Json data:
     "price": "7$"
 }
 
-This project is a part of demonstrating implementation of kubernetes. This project will be considered as a microservice and will be deployed using kubernetes.
+#### This project is a part of demonstrating implementation of kubernetes. This project will be considered as a microservice and will be deployed using kubernetes.
