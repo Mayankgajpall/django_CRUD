@@ -6,8 +6,8 @@ To run this project:
 3) Execute python manage.py runserver command to run the application
 
 Enpoints for the REST API are:
-1) /books (GET): Provides details of all the books available in the DB
-2) /books (POST): Insert data in the DB, if the provided json data is valid.
+1) /books/ (GET): Provides details of all the books available in the DB
+2) /books/ (POST): Insert data in the DB, if the provided json data is valid.
 2) /books/<book_id> (GET,PUT,DELETE): Retrieve, update and delete respectively by providing id of the data.
 
 Valid input Json data:
