@@ -1,4 +1,5 @@
 This is a simple project that demonstrate CRUD(Create,Read,Update,Delete) operations using REST API in django.
+####Github actions workflow can also be seen for pushing of docker image to docker hub with each merge.
 
 To run this project:
 1) Install dependencies in requirements file.
